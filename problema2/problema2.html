@@ -27,9 +27,9 @@
     $(document).ready(function() {
         $( "#datepicker" ).datepicker();
         $( "button" ).click(function() {
-            var texto1 = document.getElementById("nombre").value;
-            var texto2 = document.getElementById("apellido").value;
-            var texto3 = document.getElementById("datepicker").value;
+            var texto1 = $('#nombre').val();
+            var texto2 = $('#apellido').val();
+            var texto3 = $('#datepicker').val();
             console.log(texto1);
             console.log(texto2);
             console.log(texto3);
