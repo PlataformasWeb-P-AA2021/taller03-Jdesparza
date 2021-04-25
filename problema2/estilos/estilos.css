@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background-color: white;
+}
+form{
+    padding: 1em;
+}
+label, input{
+    display: block;
+}
+label{
+    padding-block: 0.5em;
+    font-size: 1.3em;
+}
+input{
+    border: 1px solid #BBBBBB;
+    background-color: #FCFCFC;
+    border-radius: 5px;
+    padding: 0.3em 1.3em 0.3em 0.5em;
+}
+div.boton{
+    padding-left: 1em;
+}
+div.boton button{
+    padding: 0.5em 0.7em;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+    background-color: #FBFAFA;
+}
+div.boton button:hover{
+    background-color: rgb(177, 255, 98);
+}
